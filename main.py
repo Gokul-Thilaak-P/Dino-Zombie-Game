@@ -203,8 +203,11 @@ while main:
     bullet_count = 0
     if not is_first_time:
         high_score = max(high_score, your_score)
+        with open("data.txt", mode="w") as file:
+            file.write(f"High Score : {high_score}")
     else:
-        high_score = 0
+        with open("data.txt") as file:
+            high_score = int(file.read().split(":")[1])
     your_score = 0
     player_name = "Player"
     font_of_hits = pygame.font.SysFont("arial", 20, True)
