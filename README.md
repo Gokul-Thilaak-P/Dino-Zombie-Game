@@ -8,11 +8,11 @@ High Score will be stored in data.txt.
 Just give it a try...
 
 <h2>Language Used:</h2>
-Python
+<li>Python</li>
 
 <h2>Modules Used:</h2>
-Pygame
+<li>Pygame</li>
 
 <h2>Requirements:</h2> 
-Python and pygame installed.
-Should download all the files of the repository.
+<li>Python and pygame installed.</li>
+<li>Should download all the files of the repository.</li>
